@@ -15,14 +15,13 @@ namespace lash_MIS4200.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "this is where you put something about yourself";
-
+            ViewBag.Message = "GARRISON LASH";
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Contact information for you";
+            ViewBag.Message = "Contact information ";
 
             return View();
         }
